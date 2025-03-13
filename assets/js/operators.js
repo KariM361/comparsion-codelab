@@ -22,5 +22,9 @@ else if (A <= E) {
   console.log('statement false');
 }
 //opgave 3: Skriv en If then statement med  && og  || der kun er sand når alle expressions er sande.
+if ((B < E && B == C) || D == A) console.log('statement true');
+else if (A > E) {
+  console.log('statement false');
+}
 
 //opgave 4: Skriv en If then statement der kan finde ud af om F er "undefined" eller har en værdi, ved at bruge !.
